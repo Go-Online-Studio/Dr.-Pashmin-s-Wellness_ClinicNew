@@ -150,6 +150,17 @@
    font-size: 12px;
    line-height: unset ;
 }
+
+.custom-accordion .accordion-button {
+  padding: 16px 12px;
+  font-size: 16px;
+}
+.accordion-body {
+  padding: 12px !important ;
+}
+.accordion-body p{
+  font-size: 14px;
+}
 }
 
 @media (max-width: 439px) {
