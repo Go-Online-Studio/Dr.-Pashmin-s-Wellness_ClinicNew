@@ -655,7 +655,11 @@
     // ... Existing AOS and Swiper logic ...
 
     // Initialize AOS Animations
-      AOS.init({ once: true, duration: 800, offset: 50 });
+      window.addEventListener('load', function() {
+        setTimeout(function() {
+          AOS.init({ once: true, duration: 800, offset: 50 });
+        }, 200);
+      });
 
       // Statistic Counter Animation
       const counterSection = document.getElementById("stats-counter-container");

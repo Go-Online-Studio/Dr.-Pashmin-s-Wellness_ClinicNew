@@ -146,11 +146,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // ===== INITIALIZE AOS =====
   if (typeof AOS !== "undefined") {
-    AOS.init({
-      once: true,
-      duration: CONFIG.animationDuration,
-      offset: 50,
-      easing: "ease-out-cubic",
+    window.addEventListener('load', function() {
+      setTimeout(function() {
+        AOS.init({
+          once: true,
+          duration: CONFIG.animationDuration,
+          offset: 50,
+          easing: "ease-out-cubic",
+        });
+      }, 200);
     });
   }
 });
