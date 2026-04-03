@@ -35,17 +35,17 @@ document.addEventListener("DOMContentLoaded", function () {
             <ul class="footer-links">
               <li><a href="index.html">Home</a></li>
               <li><a href="about.html">About Clinic</a></li>
-              <li><a href="services.html">All Treatments</a></li>
+              <li><a href="skin-laser.html">Skin & Laser</a></li>
               <li><a href="contact.html">Contact Us</a></li>
             </ul>
           </div>
           <div class="col-lg-3 col-md-6 footer-col">
             <h5>Our Services</h5>
             <ul class="footer-links">
-              <li><a href="services.html?category=Weight%20Management">Weight Loss</a></li>
-              <li><a href="services.html?category=Skin%20Treatments">Skin & Laser</a></li>
-              <li><a href="services.html?category=Hair%20Restoration">Hair Restoration</a></li>
-              <li><a href="services.html?category=Ayurvedic%20Therapies">Ayurvedic Detox</a></li>
+              <li><a href="weight-management.html">Weight Management</a></li>
+              <li><a href="skin-laser.html">Skin & Laser</a></li>
+              <li><a href="hair-restoration.html">Hair Restoration</a></li>
+              <li><a href="ayurvedic-therapies.html">Ayurvedic Therapies</a></li>
             </ul>
           </div>
           <div class="col-lg-3 col-md-6 footer-col">
@@ -57,13 +57,13 @@ document.addEventListener("DOMContentLoaded", function () {
                   Earth Artica, 22/ GF, Vasna Bhayli Link Rd, Ashwamegh Nagar, Tandalja, Vadodara, Gujarat 390007
                 </a>
               </li>
-              <li class="d-flex align-items-center gap-2 text-muted mt-3">
-                <a href="tel:+918347345777" class="d-flex align-items-center gap-2">
+              <li class="d-flex align-items-center  gap-2 text-muted mt-3">
+                <a href="tel:+918347345777" class="d-flex align-items-center gap-2 justify-content-center justify-content-md-start">
                   <iconify-icon icon="mdi:phone" class="text-primary"></iconify-icon> +91 83473 45777
                 </a> 
               </li>
               <li class="d-flex align-items-center gap-2 text-muted mt-2">
-                <a href="mailto:https://drpashminwellnessclinic.com" class="d-flex align-items-center gap-2">
+                <a href="mailto:https://drpashminwellnessclinic.com" class="d-flex align-items-center justify-content-center justify-content-md-start gap-2">
                   <iconify-icon icon="mdi:web" class="text-primary"></iconify-icon> drpashminwellnessclinic.com
                 </a>
               </li>

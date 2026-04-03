@@ -202,6 +202,28 @@ h6,
   color: var(--primary-dark);
 }
 
+/* Dropdown Menu */
+.dropdown-menu {
+  background: var(--lightBG);
+  border: 1px solid var(--primary);
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 0.5rem 0;
+}
+
+
+.dropdown-item {
+  color: var(--secondary);
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: var(--primary);
+  color: var(--accent);
+}
+
 /* ========================================
    HERO BANNER (HOME PAGE)
    ======================================== */
@@ -1062,4 +1084,258 @@ iconify-icon {
 
 .WeOffer{
   background-color: var(--light-soft);
+}
+
+/* ========================================
+   CATEGORY LANDING PAGES
+   ======================================== */
+
+/* Category Banner */
+.category-banner {
+  position: relative;
+  padding: 120px 0;
+  background: url('../images/Servicesbanner.jpg') no-repeat center right/cover;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.skin-laser-banner {
+  background-image: url('../images/Servicesbanner.jpg');
+}
+.hair-banner {
+  background-image: url('../images/Servicesbanner.jpg');
+}
+.weight-banner {
+  background-image: url('../images/Servicesbanner.jpg');
+}
+.ayurveda-banner {
+  background-image: url('../images/Servicesbanner.jpg');
+}
+
+.category-banner-overlay,
+.category-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(21, 54, 35, 0.72) 30%, rgba(0,0,0,0.25) 100%);
+}
+
+.category-banner-content {
+  position: relative;
+  max-width: 650px;
+  z-index: 2;
+}
+
+.category-banner h1 {
+  font-size: 42px;
+  font-weight: 600 !important;
+  margin-bottom: 15px;
+  line-height: 1.15;
+}
+
+/* Treatment Rows (Alternating) */
+.category-treatments-section {
+  background-color: #fff;
+}
+
+.treatment-row {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  padding: 50px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+
+.treatment-row:last-child {
+  border-bottom: none;
+}
+
+.treatment-row.reversed {
+  flex-direction: row-reverse;
+}
+
+.treatment-image-col {
+  flex: 0 0 45%;
+  max-width: 45%;
+}
+
+.treatment-content-col {
+  flex: 1;
+}
+
+/* Treatment Image */
+.treatment-image-wrapper {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+}
+
+.treatment-image-wrapper img {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.treatment-image-wrapper:hover img {
+  transform: scale(1.06);
+}
+
+.treatment-image-overlay {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  width: 52px;
+  height: 52px;
+  background: var(--gradientColor);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(43, 120, 2, 0.35);
+  transition: transform 0.3s ease;
+}
+
+.treatment-image-wrapper:hover .treatment-image-overlay {
+  transform: scale(1.1);
+}
+
+.treatment-overlay-icon {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+/* Treatment Content */
+.treatment-content {
+  position: relative;
+}
+
+.treatment-number {
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--lightBG);
+  line-height: 1;
+  margin-bottom: 8px;
+  font-family: 'Jost', sans-serif;
+  letter-spacing: -2px;
+}
+
+.treatment-title {
+  font-size: 1.6rem;
+  font-weight: 600 !important;
+  color: var(--black);
+  margin-bottom: 16px;
+  position: relative;
+  padding-bottom: 16px;
+}
+
+.treatment-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 3px;
+  background: var(--gradientColor);
+  border-radius: 2px;
+}
+
+.treatment-row.reversed .treatment-title::after {
+  left: auto;
+  right: 0;
+}
+
+
+
+
+
+/* .treatment-row.reversed .treatment-benefits {
+  text-align: left;
+} */
+
+.treatment-description {
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: var(--dark);
+  margin-bottom: 20px;
+}
+
+/* Benefits List */
+.treatment-benefits {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+
+.treatment-benefits li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 7px 0;
+  font-size: 0.9rem;
+  color: var(--dark);
+}
+
+.treatment-benefits .benefit-icon {
+  color: var(--primary-dark);
+  font-size: 1.15rem;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+/* CTA Consultation Section */
+.cta-consultation {
+  background-color: var(--light-soft);
+}
+
+.cta-consultation-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 50px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.06);
+  border-bottom: 4px solid var(--primary);
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-consultation-card::before {
+  content: '';
+  position: absolute;
+  top: -60px;
+  right: -60px;
+  width: 200px;
+  height: 200px;
+  background: var(--lightBG);
+  border-radius: 50%;
+  opacity: 0.4;
+}
+
+.cta-consultation-subtitle {
+  color: var(--primary-dark);
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.cta-consultation-title {
+  font-size: 1.8rem;
+  font-weight: 600 !important;
+  color: var(--black);
+  margin-bottom: 15px;
+}
+
+.cta-consultation-desc {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--dark);
+  max-width: 520px;
+}
+
+.cta-consultation-btn {
+  padding: 14px 32px !important;
+  font-size: 0.95rem;
 }
