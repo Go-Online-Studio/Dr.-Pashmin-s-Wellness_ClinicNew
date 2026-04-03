@@ -168,7 +168,13 @@
   background: url('../images/BannerMob1.webp') center/cover no-repeat !important;
 } 
   .HeroSlide2{
+  background: url('../images/BannerMob2.webp') center/cover no-repeat !important;
+} 
+  .HeroSlide3{
   background: url('../images/BannerMob3.webp') center/cover no-repeat !important;
+} 
+  .HeroSlide4{
+  background: url('../images/BannerMob4.webp') center/cover no-repeat !important;
 } 
 .hero-content{
   padding: 12px;
