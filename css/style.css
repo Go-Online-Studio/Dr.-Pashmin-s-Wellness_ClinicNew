@@ -1242,16 +1242,12 @@ iconify-icon {
   border-radius: 2px;
 }
 
-.treatment-row.reversed .treatment-title::after {
+/* .treatment-row.reversed .treatment-title::after {
   left: auto;
   right: 0;
 }
 
-
-
-
-
-/* .treatment-row.reversed .treatment-benefits {
+.treatment-row.reversed .treatment-benefits {
   text-align: left;
 } */
 
