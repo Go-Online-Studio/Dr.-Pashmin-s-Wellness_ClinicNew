@@ -121,6 +121,19 @@
       "image_url": "https://images.unsplash.com/photo-1612817288484-6f916006741a?w=800&q=80",
       "icon": "mdi:needle"
     },
+     {
+      "category": "skin-laser",
+      "title": "Permanent Make-Up (PMU)",
+      "persuasive_description": "Wake up every day with perfectly defined eyebrows, luscious lip color, and flawless eyeliner — no mirror needed. Our Permanent Make-Up service uses precision microblading and micropigmentation techniques to enhance your natural features with semi-permanent, waterproof, smudge-proof results. Whether you want fuller brows, a natural lip blush, or defined eyes, our trained artists deliver subtle, beautiful enhancement that looks effortlessly natural.",
+      "benefits": [
+        "Eyebrows, lips & eyeliner enhancement",
+        "Precision microblading & micropigmentation",
+        "Waterproof & smudge-proof — lasts 1-3 years",
+        "Natural-looking results tailored to your features"
+      ],
+      "image_url": "https://img.freepik.com/free-photo/beautician-doing-eyebrow-treatment-her-client_23-2148910497.jpg",
+      "icon": "mdi:brush-outline"
+    },
     {
       "category": "skin-laser",
       "title": "Laser Hair Removal",
@@ -224,32 +237,6 @@
       ],
       "image_url": "https://img.freepik.com/free-photo/man-getting-hair-loss-treatment_23-2149152756.jpg",
       "icon": "mdi:water-plus-outline"
-    },
-    {
-      "category": "hair-restoration",
-      "title": "Hair Transplant (FUE)",
-      "persuasive_description": "When non-surgical treatments aren't enough, our advanced Follicular Unit Extraction (FUE) hair transplant offers a permanent, natural-looking solution. Individual hair grafts are carefully harvested from donor areas and artistically implanted into thinning or bald regions — following your natural hairline and growth pattern. The result is undetectable, lifelong hair restoration that looks and feels entirely your own.",
-      "benefits": [
-        "Permanent, natural-looking results",
-        "Minimally invasive FUE technique — no linear scar",
-        "Artistic hairline design by experienced surgeons",
-        "Quick recovery with minimal downtime"
-      ],
-      "image_url": "https://img.freepik.com/free-photo/adult-male-doing-follicular-unit-extraction_23-2149106336.jpg?t=st=1775210034~exp=1775213634~hmac=2ea034c030c6ef9deaf8d67afbeaf40901835e5759b04e01d5dd3371e6d3e06f&w=1480",
-      "icon": "mdi:content-cut"
-    },
-    {
-      "category": "hair-restoration",
-      "title": "Permanent Make-Up (PMU)",
-      "persuasive_description": "Wake up every day with perfectly defined eyebrows, luscious lip color, and flawless eyeliner — no mirror needed. Our Permanent Make-Up service uses precision microblading and micropigmentation techniques to enhance your natural features with semi-permanent, waterproof, smudge-proof results. Whether you want fuller brows, a natural lip blush, or defined eyes, our trained artists deliver subtle, beautiful enhancement that looks effortlessly natural.",
-      "benefits": [
-        "Eyebrows, lips & eyeliner enhancement",
-        "Precision microblading & micropigmentation",
-        "Waterproof & smudge-proof — lasts 1-3 years",
-        "Natural-looking results tailored to your features"
-      ],
-      "image_url": "https://img.freepik.com/free-photo/beautician-doing-eyebrow-treatment-her-client_23-2148910497.jpg",
-      "icon": "mdi:brush-outline"
     },
     {
       "category": "weight-management",
